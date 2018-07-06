@@ -1,0 +1,13 @@
+//
+//  roalMoneyplayVModel.h
+//  midabao_project
+//
+//  Created by 杨路 on 2017/9/9.
+//  Copyright © 2017年 xiangbibi. All rights reserved.
+//
+
+#import "MultipageViewModel.h"
+
+@interface roalMoneyplayVModel : MultipageViewModel
+
+@end

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="37" id="KGk-i7-Jjw" customClass="InvestmentListTVCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="35"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="34.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appleIcon" translatesAutoresizingMaskIntoConstraints="NO" id="ze6-8k-dfO">
+                        <rect key="frame" x="16" y="16" width="14" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="4pD-wU-mUY"/>
+                            <constraint firstAttribute="width" constant="14" id="miS-Lv-us0"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="米小贝" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zah-ph-ngo">
+                        <rect key="frame" x="40" y="18" width="43" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="CUu-aN-lSq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cp-3q-cYy">
+                        <rect key="frame" x="120" y="18" width="23" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="Lid-aS-pxa"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="0">
+                                <attributes>
+                                    <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="14" name="SFUIText-Regular"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content="元">
+                                <attributes>
+                                    <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="昨天" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rvZ-2D-uQz">
+                        <rect key="frame" x="275" y="18" width="29" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="Bvp-y3-WAo"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Zah-ph-ngo" firstAttribute="leading" secondItem="ze6-8k-dfO" secondAttribute="trailing" constant="10" id="Bdc-ea-gH8"/>
+                    <constraint firstItem="5cp-3q-cYy" firstAttribute="centerY" secondItem="ze6-8k-dfO" secondAttribute="centerY" id="FMA-BG-mCl"/>
+                    <constraint firstItem="ze6-8k-dfO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="O7b-op-sLy"/>
+                    <constraint firstItem="rvZ-2D-uQz" firstAttribute="centerY" secondItem="ze6-8k-dfO" secondAttribute="centerY" id="Y36-Ja-bn6"/>
+                    <constraint firstItem="Zah-ph-ngo" firstAttribute="centerY" secondItem="ze6-8k-dfO" secondAttribute="centerY" id="gT9-8M-Mg4"/>
+                    <constraint firstItem="ze6-8k-dfO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="sTV-0K-0s8"/>
+                    <constraint firstAttribute="trailing" secondItem="rvZ-2D-uQz" secondAttribute="trailing" constant="16" id="y89-hN-iz1"/>
+                    <constraint firstAttribute="centerX" secondItem="5cp-3q-cYy" secondAttribute="leading" multiplier="4:3" id="ylr-UD-9q9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="investIcon" destination="ze6-8k-dfO" id="tIi-dZ-gFW"/>
+                <outlet property="investTime" destination="rvZ-2D-uQz" id="W90-vA-cI2"/>
+                <outlet property="money" destination="5cp-3q-cYy" id="F7K-T4-QpH"/>
+                <outlet property="name" destination="Zah-ph-ngo" id="QEm-a9-4bH"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="31.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="appleIcon" width="14" height="17"/>
+    </resources>
+</document>

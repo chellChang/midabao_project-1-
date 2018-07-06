@@ -1,0 +1,29 @@
+//
+//  Midabao_PrefixHeader.pch
+//  midabao_project
+//
+//  Created by 杨路 on 2017/7/31.
+//  Copyright © 2017年 xiangbibi. All rights reserved.
+//
+
+#ifndef Midabao_PrefixHeader_pch
+#define Midabao_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "MidabaoMacro.h"
+#import "NetWorkOperation.h"
+#import "SpringAlertView.h"
+#import "BaseIndicatorView.h"
+#import "UIView+Frame.h"
+#import "UITableView+adjustTab.h"
+#import "ReactiveObjC.h"
+#import "MidabaoApplication.h"
+#import "UIViewController+NavigationItem.h"
+#import "AFNetworking.h"
+#import "AlertViewManager.h"
+#import "CommonTools.h"
+#import "IQKeyboardManager.h"
+#import <YYModel/YYModel.h>
+#endif /* Midabao_PrefixHeader_pch */
